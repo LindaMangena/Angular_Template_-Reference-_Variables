@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Project';
+  title = 'Template_Reference_variables';
+
+
+constructor(){}
+
+ngOnInit(){}
+
+logMessage(value){
+  console.log(value);
+}
+
+
 }
